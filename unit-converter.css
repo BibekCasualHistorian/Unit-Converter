@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Karla:wght@500;600;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Inter', sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+* {
+    font-family: inherit;
+}
+
+body {
+    margin-top: 0;
+}
+
+main {
+    margin: auto;
+    width: 575px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: white;
+    background: #6943FF;
+    padding: 2.2em 1em 2.2em 1em;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+input {
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    font-size: 4rem;
+    font-weight: 800;
+    outline: none;
+    background: transparent;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 140px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: black;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em 0.8em;
+    cursor: pointer;
+}
+
+section.display-conversion {
+    width: 100%;
+    margin: 0 auto;
+    padding: 03em 1em 4em 1em;
+    background: #F4F4F4;
+    display: flex;
+    flex-flow: column;
+    row-gap: 2rem;
+}
+
+.display-conversion > section {
+    margin: 0 auto;
+    width: 90%;
+    height: 110px;
+    background: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.8em;
+    box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
+    display: block;
+    color: #5A537B;
+    font-size: 1.4rem;
+}
+
+p {
+    margin: 0;
+    font-weight: 500;
+}
